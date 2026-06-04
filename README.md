@@ -1,6 +1,6 @@
 # RAG_AgenticAI
 
-## [Vedic Astrology Expert Assistant using RAG, Ollama, Agno, LanceDB, and Streamlit](https://github.com/AvantiBuche/RAG_AgenticAI/edit/main/README.md#:~:text=VedicAstrologyExpertAssistant)
+## [Vedic Astrology Expert Assistant using RAG, Ollama, Agno, LanceDB, and Streamlit](https://github.com/AvantiBuche/RAG_AgenticAI/blob/main/VedicAstrologyExpertAssistant.py)
 
 ### Overview
 The goal was to create a chatbot capable of answering questions based on the classical Vedic astrology text - Brihat Jyotish Shastra.
