@@ -64,13 +64,13 @@ Overlap: 100 characters
 The overlap helps preserve context between neighbouring chunks and improves retrieval quality.
 
 ### Memory and Conversation Context
-This assistant also maintains conversation memory like historical context retention and improved follow-up question handling.
+This assistant also maintains conversation memory like historical context retention and improved follow-up question handling. \
 
-The agent remembers:
+The agent remembers: \
 
-User: "My moon sign is Taurus"
+User: "My moon sign is Taurus" \
 
-User: "What impact will Saturn in 7th house have?"
+User: "What impact will Saturn in 7th house have?" \
 
 The second question can use information from the first.
 
@@ -78,4 +78,130 @@ The second question can use information from the first.
 
 I have used hybrid search, combining - Keyword Search & Semantic Vector Search. It improves retrieval accuracy. This allows pure keyword or pure vector search in domain-specific applications.
 
+## AI Marketing Agency - Multi-Agent Marketing Automation
 
+An AI-powered marketing agency built using Agno Agents, Ollama, and Streamlit that automates market research, audience analysis, content creation, SEO optimization, social media strategy, and image prompt generation through a collaborative multi-agent architecture. Based on the uploaded project source code.
+
+### 🚀 Features
+#### 🔍 Market Research Agent
+Performs online research using DuckDuckGo \
+Gathers industry insights and competitor information
+#### 🎯 Target Audience Agent
+Identifies ideal customer profiles \
+Generates audience segmentation insights
+#### ✍️ Content Creation Agent
+Creates marketing copy \
+Generates promotional content for campaigns
+#### 🔑 SEO Optimization Agent
+Produces relevant SEO keywords \
+Helps improve search visibility
+#### 📱 Social Media Strategy Agent
+Creates platform-specific content for: \
+Instagram \
+LinkedIn \
+X (Twitter)
+#### 🎨 Image Prompt Agent
+Generates AI image generation prompts \
+Supports marketing creatives and campaign visuals 
+#### 💬 Interactive Chat Interface
+Built with Streamlit \
+Real-time marketing assistance
+
+### 🏗️ Architecture
+
+                    User Query
+                         │
+                         ▼
+                Marketing Manager
+                         │
+        ┌────────────────┼────────────────┐
+        │                │                │
+        ▼                ▼                ▼
+ Research Agent   Audience Agent   Content Agent
+        │                │                │
+        └────────────────┼────────────────┘
+                         │
+        ┌────────────────┼────────────────┐
+        │                │                │
+        ▼                ▼                ▼
+   SEO Agent     Social Media Agent   Image Agent
+                         │
+                         ▼
+                Consolidated Report
+
+### 🛠️ Tech Stack
+Technology	Purpose \
+Python	Core development \
+Streamlit	Web UI \
+Agno Framework	Agent orchestration \
+Ollama	Local LLM inference \
+Llama 3.1 8B	Research Agent \
+Llama 3.2 3B	Marketing Agents \
+DuckDuckGo Tools	
+
+#### Install Dependencies:
+pip install -r requirements.txt
+
+#### Download and install Ollama:
+https://ollama.com/download
+
+#### Pull Required Models:
+ollama pull llama3.1:8b \
+ollama pull llama3.2:3b
+
+### ▶️ Running the Application
+
+Start Streamlit: 
+streamlit run app.py 
+
+User Input: 
+Create a marketing campaign for an AI-powered fitness app.
+
+### Generated Output
+#### Market Research
+Fitness app market trends \
+Competitor analysis \
+Industry insights
+
+#### Target Audience
+Health-conscious professionals \
+Fitness enthusiasts \
+Age group analysis 
+
+#### Marketing Copy
+Ad headlines \
+Promotional content \
+Product descriptions 
+
+#### SEO Keywords
+AI fitness app \
+workout planner \
+fitness coaching app 
+
+#### Social Media Posts
+Instagram caption \
+LinkedIn post \
+X/Twitter thread 
+
+#### Image Prompt
+A futuristic fitness application dashboard with AI-powered coaching, 
+modern neon accents, energetic athletes, ultra-realistic, 
+high-detail digital marketing banner.
+
+### 🔄 Program Workflow
+User submits a marketing request. \
+Marketing Manager receives the query. \
+Query is distributed to specialized agents. \
+Each agent generates domain-specific output. \
+Results are combined into a unified marketing report. \
+Final response is displayed in the Streamlit interface.
+
+### 🎯 Use Cases
+Product Launch Campaigns \
+Startup Marketing \
+Social Media Planning \
+SEO Research \
+Content Marketing \
+Brand Positioning \
+Audience Discovery \
+AI Image Generation Prompting
