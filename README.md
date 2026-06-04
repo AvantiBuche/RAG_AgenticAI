@@ -78,7 +78,7 @@ The second question can use information from the first.
 
 I have used hybrid search, combining - Keyword Search & Semantic Vector Search. It improves retrieval accuracy. This allows pure keyword or pure vector search in domain-specific applications.
 
-## AI Marketing Agency - Multi-Agent Marketing Automation
+## [AI Marketing Agency - Multi-Agent Marketing Automation](https://github.com/AvantiBuche/RAG_AgenticAI/blob/main/MarketingMultiAgentSystemWithoutRAG.py)
 
 An AI-powered marketing agency built using Agno Agents, Ollama, and Streamlit that automates market research, audience analysis, content creation, SEO optimization, social media strategy, and image prompt generation through a collaborative multi-agent architecture. Based on the uploaded project source code.
 
@@ -158,32 +158,32 @@ User Input:
 Create a marketing campaign for an AI-powered fitness app.
 
 ### Generated Output
-#### Market Research
+#### 1. Market Research
 Fitness app market trends \
 Competitor analysis \
 Industry insights
 
-#### Target Audience
+#### 2. Target Audience
 Health-conscious professionals \
 Fitness enthusiasts \
 Age group analysis 
 
-#### Marketing Copy
+#### 3. Marketing Copy
 Ad headlines \
 Promotional content \
 Product descriptions 
 
-#### SEO Keywords
+#### 3. SEO Keywords
 AI fitness app \
 workout planner \
 fitness coaching app 
 
-#### Social Media Posts
+#### 4. Social Media Posts
 Instagram caption \
 LinkedIn post \
 X/Twitter thread 
 
-#### Image Prompt
+#### 5. Image Prompt
 A futuristic fitness application dashboard with AI-powered coaching, 
 modern neon accents, energetic athletes, ultra-realistic, 
 high-detail digital marketing banner.
