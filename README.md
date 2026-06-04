@@ -1,4 +1,4 @@
-# RAG_AgenticAI
+# RAG & Agentic AI Projects
 
 ## [Vedic Astrology Expert Assistant using RAG, Ollama, Agno, LanceDB, and Streamlit](https://github.com/AvantiBuche/RAG_AgenticAI/blob/main/VedicAstrologyExpertAssistant.py)
 
